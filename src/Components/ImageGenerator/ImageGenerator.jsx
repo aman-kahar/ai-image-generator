@@ -3,7 +3,7 @@ import "./ImageGenerator.css";
 import ai_img from "../Assets/aiImageGenerator.jpg";
 
 const ImageGenerator = () => {
-  const [prompt, setPrompt] = useState("Modern AI Generator");
+  const [prompt, setPrompt] = useState("");
   const [imageUrl, setImageUrl] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
